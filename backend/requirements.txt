@@ -1,0 +1,8 @@
+flask
+flask-cors
+tensorflow
+opencv-python
+numpy
+torch
+librosa
+transformers
