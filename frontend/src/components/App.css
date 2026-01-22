@@ -1,0 +1,111 @@
+/* 🌟 General Styling */
+body {
+  background: #e3eaf4; /* Softer background for readability */
+  font-family: "Poppins", sans-serif; /* Modern and readable font */
+  color: #333; /* Darker text for better contrast */
+}
+
+/* ✅ Container Styling */
+.container {
+  max-width: 900px;
+  background: #ffffff;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.15); /* Slightly darker shadow */
+  margin: auto;
+  transition: all 0.3s ease-in-out;
+}
+
+/* 🌟 Heading */
+h2 {
+  font-size: 2rem;
+  font-weight: 600;
+  color: #222; /* Darker heading text */
+  margin-bottom: 15px;
+}
+
+/* 📂 Upload Section */
+.content-section {
+  padding: 20px;
+  background: #f5f7fa;
+  border-radius: 10px;
+  border: 1px solid #ccc;
+  transition: all 0.3s ease-in-out;
+}
+
+/* 🖼️ Image Styling */
+.uploaded-image {
+  max-width: 100%;
+  height: auto;
+  border: 2px solid #aaa;
+  padding: 5px;
+  border-radius: 8px;
+  transition: transform 0.3s ease-in-out;
+}
+
+.uploaded-image:hover {
+  transform: scale(1.05);
+}
+
+/* 🎭 Emotion Prediction */
+.alert-success {
+  font-size: 1.2rem;
+  font-weight: 500;
+  color: #155724;
+  background-color: #d4edda;
+  border: 1px solid #b5e0b0;
+  border-radius: 8px;
+  padding: 15px;
+  margin-top: 20px;
+  text-align: center;
+}
+
+/* 🎬 Video and Real-Time Processing Buttons */
+.btn-secondary {
+  background: #007bff; /* Bright blue for visibility */
+  color: #fff;
+  border: none;
+  font-weight: 500;
+  transition: background 0.3s ease-in-out, transform 0.2s ease-in-out;
+}
+
+.btn-secondary:hover {
+  background: #0056b3; /* Darker blue on hover */
+  transform: translateY(-2px);
+}
+
+.btn-secondary.active {
+  background: #ffcc00; /* Gold for active state */
+  color: #222; /* Darker text for contrast */
+  font-weight: bold;
+}
+
+/* 📂 File Input */
+input[type="file"] {
+  border: 2px solid #ccc;
+  padding: 8px;
+  border-radius: 5px;
+  background: #fff;
+  transition: border 0.3s ease-in-out;
+}
+
+input[type="file"]:hover {
+  border-color: #007bff;
+}
+
+/* 📱 Responsive Design */
+@media (max-width: 768px) {
+  .container {
+    max-width: 100%;
+    padding: 20px;
+  }
+
+  h2 {
+    font-size: 1.5rem;
+  }
+
+  .btn-secondary {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+}
