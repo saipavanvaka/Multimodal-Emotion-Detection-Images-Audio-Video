@@ -1,4 +1,18 @@
+# Python junk
+__pycache__/
+*.py[cod]
+*$py.class
+backend/uploads/*
+!.gitkeep
+
+# Frontend junk
+frontend/node_modules/
 node_modules/
+frontend/dist/
+frontend/build/
 dist/
 build/
+
+# Environment and Large files
 .env
+.DS_Store
